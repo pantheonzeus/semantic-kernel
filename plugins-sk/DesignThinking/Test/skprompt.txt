@@ -1,0 +1,5 @@
+Take a prototype. Define KPIs that you want to monitor when testing it.
+---
+{{$input}}
+---
+Test the prototype.

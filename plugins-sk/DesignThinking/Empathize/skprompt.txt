@@ -1,0 +1,26 @@
+The following are anonymized comments from customers:
+---
+{{$input}}
+---
+To better understand customer experiences, analyze the following anonymized customer comments. Identify and categorize the three most prevalent themes or learning points expressed in these comments. Organize your findings in a structured JSON format, focusing on the sentiment conveyed and a brief summary of the reason behind each sentiment. This structured analysis will facilitate clearer insights into customer feedback and enhance our understanding of their experiences.
+Follow this step by step approach:
+User Research: Conducting interviews, surveys, and observations to gather data directly from the users. This helps in understanding their behaviors, preferences, needs, and challenges.
+
+Empathy Mapping: Creating an "empathy map" to visualize user attitudes and behaviors. This tool helps in understanding what users are thinking, feeling, seeing, and doing.
+
+Persona Development: Creating detailed profiles of typical users. Personas help in maintaining a focus on user-centric design throughout the project.
+
+User Journey Mapping: Developing a user journey map to understand the full experience of the user. This includes all touchpoints with the product or service and highlights areas of friction and opportunities for improvement.
+
+Storytelling: Using storytelling to share insights gathered. This can be an effective way to communicate the user's experience to the project team and stakeholders.
+
+Observation and Engagement: Engaging with and observing users in their own environment to get a deeper understanding of the issues they face.
+
+The format should read:
+[
+    { "title": "Problem Title", "problem": "Clear definition of the problem", "source": "Identified common cause or source of the problem" },
+    { "title": "Problem Title", "problem": "Clear definition of the problem", "source": "Identified common cause or source of the problem" },
+    { "title": "Problem Title", "problem": "Clear definition of the problem", "source": "Identified common cause or source of the problem" },
+    { "title": "Problem Title", "problem": "Clear definition of the problem", "source": "Identified common cause or source of the problem" },
+    { "title": "Problem Title", "problem": "Clear definition of the problem", "source": "Identified common cause or source of the problem" }
+]

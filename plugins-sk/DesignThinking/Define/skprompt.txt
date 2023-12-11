@@ -1,0 +1,28 @@
+Customer support logs were analyzed for problems with the top cases surfacing as:
+---
+{{$input}}
+---
+To efficiently address customer needs, conduct an in-depth analysis of the customer support logs. Identify the five most prevalent and interconnected issues highlighted in these logs. Present your findings in a structured JSON format, focusing on a concise title for each problem, its definition as commonly encountered, and the typical source or cause of the problem. This structured approach will provide a clearer understanding of the underlying issues, enabling more targeted and effective solutions.
+Use this step by step approach:
+
+Data Analysis: Reviewing and organizing the data collected during the Empathize phase to identify patterns and insights.
+
+Point of View (POV) Statements: Creating POV statements that articulate the user's needs and insights. These statements typically encapsulate who the user is, what they need, and why.
+
+Problem Definition: Articulating the core problem(s) in a human-centered manner. This often involves reframing the problem from the user's perspective rather than from a technical or business standpoint.
+
+How Might We (HMW) Questions: Formulating "How Might We" questions to transform the problem into opportunities for design. HMW questions are broad enough to allow for a variety of solutions but narrow enough to be manageable.
+
+Prioritization: Identifying and prioritizing the most critical problems or needs to focus on. This may involve stakeholder feedback and considering business or technical constraints.
+
+Creating a User-Centric Goal: Defining a clear, actionable, and user-focused goal or set of goals that the design efforts will aim to achieve.
+
+
+The format should read:
+[
+    { "title": "concise name of the likely problem", "problem": "definition of the problem as commonly encountered", "source":"common reason why this problem exists"},
+    { "title": "concise name of the likely problem", "problem": "definition of the problem as commonly encountered", "source":"common reason why this problem exists"},
+    { "title": "concise name of the likely problem", "problem": "definition of the problem as commonly encountered", "source":"common reason why this problem exists"},
+    { "title": "concise name of the likely problem", "problem": "definition of the problem as commonly encountered", "source":"common reason why this problem exists"},
+    { "title": "concise name of the likely problem", "problem": "definition of the problem as commonly encountered", "source":"common reason why this problem exists"},
+]

@@ -1,0 +1,30 @@
+A set of problems have been identified with estimated resources required to address them:
+---
+{{$input}}
+---
+Utilizing the identified set of problems with their respective resource requirements, brainstorm innovative solutions. Organize your ideas into two categories based on resource intensity. Present these ideas in a markdown table with two columns: 'Lower-hanging fruit' for solutions requiring 'MEDIUM' or 'LOW' resources, and 'Higher-hanging fruit' for those needing 'HIGH' resources. Ensure each column contains ten ideas, focusing on products, programs, or features suitable for each resource category. Use markdown formatting with left-justified columns to enhance clarity and readability.
+
+thi is the step by step process
+Brainstorming Sessions: Encouraging open and unrestricted thinking to generate a large quantity of ideas. The focus is on quantity over quality, to foster creativity and out-of-the-box thinking.
+
+Mind Mapping: Creating visual diagrams that show the relationship between different ideas. This can help in discovering unexpected connections and combinations.
+
+SCAMPER Technique: Applying SCAMPER (Substitute, Combine, Adapt, Modify, Put to another use, Eliminate, Reverse) to explore different ways of transforming existing solutions or creating new ones.
+
+Sketching and Prototyping: Creating quick and rough sketches or models of ideas. This helps in making abstract ideas more concrete and easier to evaluate.
+
+Role Playing: Acting out scenarios to explore ideas and solutions from different perspectives.
+
+Idea Affinity Diagrams: Organizing ideas into clusters based on their similarities or themes. This helps in synthesizing the brainstorming output into coherent groups.
+
+Voting and Prioritization: Using methods like dot voting to prioritize ideas based on their feasibility, potential impact, and alignment with user needs and business goals.
+
+The format should read:
+In a markdown table there are two columns labeled "Lower-hanging fruit" and "Higher-hanging fruit". Each of the columns are left justified using markdown formatting ":---" explicitly.
+The first column has ten ideas for products, programs, or features that should be implemented for cases where any resource requirements are MEDIUM or LOW.
+The second column has ten ideas for products, programs, or features that should be implemented for cases where any resource requirements are HIGH.
+| Lower-hanging fruit | Higher-hanging fruit |
+|:-------------------|:---------------------|
+| Idea 1 for medium/low resources | Idea 1 for high resources |
+| Idea 2 for medium/low resources | Idea 2 for high resources |
+| ... (continue for 10 ideas each) | ... (continue for 10 ideas each) |
