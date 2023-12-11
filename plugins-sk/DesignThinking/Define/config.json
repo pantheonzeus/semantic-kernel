@@ -1,6 +1,6 @@
 {
     "schema": 1,
-    "description": "Define the root problems for given cases of customer problems.",
+    "description": "Define the root problems for the given cases of customer problems.",
     "type": "completion",
     "completion": {
       "max_tokens": 1000,
