@@ -18,9 +18,7 @@ Observation and Engagement: Engaging with and observing users in their own envir
 
 The format should read:
 [
-    { "title": "Problem Title", "problem": "Clear definition of the problem", "source": "Identified common cause or source of the problem" },
-    { "title": "Problem Title", "problem": "Clear definition of the problem", "source": "Identified common cause or source of the problem" },
-    { "title": "Problem Title", "problem": "Clear definition of the problem", "source": "Identified common cause or source of the problem" },
-    { "title": "Problem Title", "problem": "Clear definition of the problem", "source": "Identified common cause or source of the problem" },
-    { "title": "Problem Title", "problem": "Clear definition of the problem", "source": "Identified common cause or source of the problem" }
+    { "sentiment": "expression of a sentiment", "summary": "concise summary of reason for this sentiment"},
+    { "sentiment": "expression of a sentiment", "summary": "concise summary of reason for this sentiment"},
+    { "sentiment": "expression of a sentiment", "summary": "concise summary of reason for this sentiment"},
 ]
