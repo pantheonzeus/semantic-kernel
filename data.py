@@ -1,4 +1,4 @@
-customer_feedback ="""
+CUSTOMER_FEEDBACK ="""
 Customer 1: The digital dashboard is intuitive and user-friendly. I love how it seamlessly integrates with my phone.
 Customer 2: Struggled with the navigation system. It's not as accurate as my smartphone's GPS.
 Customer 3: The online car configurator was a joy to use. Allowed me to visualize my car before purchase.
@@ -49,3 +49,5 @@ Customer 47: Neutral about the overall digital experience. Some features are gre
 Customer 48: The voice commands work well for basic functions, but struggle with more complex commands.
 Customer 49: The digital tire pressure monitoring system is very accurate and gives me peace of mind.
 """
+
+ASK = 'This is customer feedback. Emphasize it, Define it. Ideate.'

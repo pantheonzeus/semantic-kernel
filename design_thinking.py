@@ -9,19 +9,19 @@ from semantic_kernel.planning.sequential_planner.sequential_planner_config impor
     SequentialPlannerConfig
 )
 
-import customer_feedback
+import data
 
 config = dotenv_values(".env")
 
 PLUGINS_DIRECTORY = "./plugins-sk"
-CUSTOMER_FEEDBACK = customer_feedback.customer_feedback
-ASK = 'This is customer feedback. Emphasize it, Define it. Ideate.'
+CUSTOMER_FEEDBACK = data.CUSTOMER_FEEDBACK
+ASK = data.ASK
 
 # Connect to OpenAPI or Azure OpenAPI. Then load the planner and import the skills
 kernel = sk.Kernel()
 
 if config.get("AZURE_OPENAI_API_KEY", None):
-    deployment, api_key, endpoint, testma = sk.azure_openai_settings_from_dot_env()
+    deployment, api_key, endpoint, _ = sk.azure_openai_settings_from_dot_env()
     kernel.add_text_completion_service(
         "azureopenai",
         AzureChatCompletion(deployment, endpoint, api_key)
